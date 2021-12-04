@@ -9,17 +9,17 @@
 <body>
     <div class="page">
         <header class="header">
-            <div class="menu">
-                <a href="" class="logo">НЕ_ПУПЫРКА.РУ</a>
-                <section class="navigation">
-                    <a href="" class="logo-text">О НАС</a>
-                    <a href="" class="logo-text">СКИДКИ</a>
-                    <a href="" class="logo-text">КОНТАКТЫ</a>
-                </section>
-            </div>
-            <h1 class="header__title">POP IT!</h1>
+            <section class="navigation">
+                <a href="#" class="logo-text-link">НЕ_ПУПЫРКА.РУ</a>
+                <ul class="header__container">
+                    <li class="logo-text"><a class="logo-text-link" href="#">О НАС</a></li>
+                    <li class="logo-text"><a class="logo-text-link" href="#">СКИДКИ</a></li>
+                    <li class="logo-text"><a class="logo-text-link" href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </section>
+            <h1 class="header__title"><b>POP IT!</b></h1>
             <p class="header__subtitle">Лучшая игрушка-антистресс - бесконечная пупырчатая пленка!</p>
-            <button type="button" class="header__button">Купить</button>
+            <button type="button" class="header__button"><a href="#" class="logo-text-link" >КУПИТЬ</a></button>
         </header>
         <main class="content">
             <section class="description">
@@ -33,38 +33,40 @@
                 <h2 class="choice__title">Выбери свой Pop-It!</h2>
                 <div class="items">
                     <div class="item">
-                        <img src="" alt="Pop it picture">
+                        <img class="item__pic" src="images/square.png" alt="Pop it picture">
                         <p class="item__description">Разноцветный квадратный</p>
-                        <button type="button">КУПИТЬ</button>
+                        <button class="item__button" type="button"><a href="#" class="logo-text-link" >КУПИТЬ</a></button>
                     </div>
                     <div class="item">
-                        <img src="" alt="Pop it picture">
+                        <img class="item__pic" src="images/amongus.png" alt="Pop it picture">
                         <p class="item__description">Among Us, мраморный</p>
-                        <button type="button">КУПИТЬ</button>
+                        <button class="item__button" type="button"><a href="#" class="logo-text-link" >КУПИТЬ</a></button>
                     </div>
                     <div class="item">
-                        <img src="" alt="Pop it picture">
+                        <img class="item__pic" src="images/round.png" alt="Pop it picture">
                         <p class="item__description">Разноцветный круглый</p>
-                        <button type="button">КУПИТЬ</button>
+                        <button class="item__button" type="button"><a href="#" class="logo-text-link" >КУПИТЬ</a></button>
                     </div>
                 </div>
             </section>
             <section class="rules">
-                <h2 class="rules__title">Правила игры</h2>
-                <p class="rules__description">Игроки ходят по очереди и нажимают на пупырки. Нужно обязательно
-                заканчивать ряд, который начали. Нажимать можно максимально на 3 пупырки одновременно
-                (обязательно должны быть рядом, нельзя нажимать сразу несколько пупырок, если они не находятся
-                впритык). Задача сделать так, чтобы соперник сходил последним. Кто сходил последним -
-                тот проиграл!)</p>
-                <img src="" alt="Pop it picture">
+                <div class="rules__text">
+                    <h2 class="rules__title">Правила игры</h2>
+                    <p class="rules__description">Игроки ходят по очереди и нажимают на пупырки. Нужно обязательно
+                        заканчивать ряд, который начали. Нажимать можно максимально на 3 пупырки одновременно
+                        (обязательно должны быть рядом, нельзя нажимать сразу несколько пупырок, если они не находятся
+                        впритык). Задача сделать так, чтобы соперник сходил последним. Кто сходил последним -
+                        тот проиграл!)</p>
+                </div>
+                <img class="rules__pic" src="images/photo.jpg" alt="Pop it picture">
             </section>
         </main>
         <footer class="footer">
-            <a href="#" class="logo-text">НЕ_ПУПЫРКА.РУ</a>
-            <a href="#" class="footer__element">Способы оплаты</a>
-            <a href="#" class="footer__element">Доставка</a>
-            <a href="#" class="footer__element">Опт</a>
-            <a href="#" class="footer__element">Контакты</a>
+            <a href="#" class="logo-text-link footer_link">НЕ_ПУПЫРКА.РУ</a>
+            <a href="#" class="logo-text-link footer_link">Способы оплаты</a>
+            <a href="#" class="logo-text-link footer_link">Доставка</a>
+            <a href="#" class="logo-text-link footer_link">Опт</a>
+            <a href="#" class="logo-text-link footer_link">Контакты</a>
         </footer>
     </div>
 </body>
